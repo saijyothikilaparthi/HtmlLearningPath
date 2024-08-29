@@ -1,7 +1,9 @@
 *{
     background-color: #222;
     color:#fff ;
-    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 .name{
     font-size: 1rem;
@@ -9,8 +11,16 @@
     font-family: Arial, Helvetica, sans-serif;
     filter: drop-shadow(10px 10px 10px rgb(233, 233, 7));
     color: rgb(244, 244, 7);
-   
-   
-    
-    
-}
+   }
+   .banner{
+    background-image:url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABYoTIInsmO2HJnPJm2E8n5Fm4eQPUBRksw-Oib-qDEN5wQS0d9bTxyY1hVlCvq3kt6fNBTr0IweXAb_ow7r7R3xv860TW_pv3LqN.jpg?r=8c2&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+   }
+   .posters{
+    display: flex;
+     
+   }
