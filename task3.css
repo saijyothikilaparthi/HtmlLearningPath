@@ -1,0 +1,24 @@
+*{
+    background-color: aliceblue;
+    color: bisque;
+}
+.b1{ 
+    border-style: solid;
+    border-color: black;
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px 0px 10px;
+    background-color: #0d7bdc;
+}
+.b2{ 
+    border-style: solid;
+    border-color: black;
+    padding: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: -50px 0px 0px 100px;
+    background-color: rgb(12, 224, 12);
+}

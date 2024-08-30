@@ -1,0 +1,27 @@
+*{
+    background-color:hsl(105, 14%, 89%);
+   
+}
+.b1{
+    width: 400px;
+    height: 400px;
+    background-color: #3ec11d;
+    margin: 0px 0px 0px 100px;
+    
+
+}
+.b2{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    margin: 0px 0px 0px 400px;
+    padding:400px 1px ;
+
+    
+}
+.b3{
+    width: 400px;
+    height: 400px; 
+    background-color: rgb(232, 19, 215);
+    margin:  0px 0px  0px 400px;
+}
