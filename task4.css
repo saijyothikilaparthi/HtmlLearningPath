@@ -6,8 +6,7 @@
     width: 400px;
     height: 400px;
     background-color: #3ec11d;
-    margin: 0px 0px 0px 100px;
-    
+   
 
 }
 .b2{
@@ -15,7 +14,7 @@
     height: 400px;
     background-color: aqua;
     margin: 0px 0px 0px 400px;
-    padding:400px 1px ;
+   
 
     
 }
@@ -23,5 +22,5 @@
     width: 400px;
     height: 400px; 
     background-color: rgb(232, 19, 215);
-    margin:  0px 0px  0px 400px;
+    margin:  -200px 0px  0px 200px;
 }
