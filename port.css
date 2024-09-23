@@ -17,7 +17,43 @@ body{
 }
 .bannercontent .bannertitle img{
     object-fit: contain;
-    max-width:30% ;
-
+    max-width:50% ;
+}
+.bannercontent{
+    padding: 10% 5%;
+}
+.bannercontent .bannertitle h1{
+    font-size:70px ;
+    font-style:italic;
+    padding: 10px 0px;
+}
+.bannercontent .bannertitle h3{
+    color: #a3a3a3;
+    padding: 10px 0px;
 
 }
+.bannercontent .bannertitle span{
+    padding: 0 5px;
+}
+.bannercontent .bannertitle .a1{
+
+padding: 4px 8px;
+border:2px solid #a3a3a3;
+}
+.bannercontent .bannertitle p{
+    max-width: 30%;
+}
+.bannercontent .bannertitle .a2{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
