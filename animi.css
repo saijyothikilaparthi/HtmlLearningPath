@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body .class1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: hello 3s infinite;
+    position: relative;
+}
+
+@keyframes hello{
+    0%{
+top:0;
+left:0;
+
+    }
+    25%{
+top:0;
+left:1820px;
+background-color: aqua;
+    }
+    50%{
+top:770px;
+left:1820px;
+background-color: blue;
+    }
+   75%{
+    top:770px;
+    left:0;
+    background-color: chartreuse;
+   } 
+100%{
+    top:0;
+    left:0;
+background-color: darkmagenta;
+}
+
+   
+}
