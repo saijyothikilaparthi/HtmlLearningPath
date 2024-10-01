@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+
+}
+body{
+    background-color:black ;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.heart{
+    height:70px ;
+    width: 70px;
+    background-color:black;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 20px 90px red;
+    animation: hi 1s linear infinite;
+    left: 27%;
+    top: 2%;
+}
+.heart::before{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    top: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50px;
+    animation: hi 1s linear infinite;
+}
+.heart::after{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    right: -50%;
+    position: absolute;
+    content: '';
+    border-radius: 50px;
+    animation: hi 1s linear infinite;
+}
+@keyframes hi{
+    0%{
+        transform: rotate(-45deg) scale(1.09);
+        background-color: red;
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+        background-color:darkred;
+        
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.0);
+        background-color:black;
+       
+    }
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    z-index: 1;
+    animation: cir 2s linear infinite;
+    position: relative;
+    left:15%;
+    top: 2%;
+
+}
+@keyframes cir{
+
+    from{
+       transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color:transparent;
+        transition: 2s;
+        border: 2px solid greenyellow;
+    }
+}
+
+
+.square{
+    height: 600px;
+    width: 600px;
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    z-index: 1;
+    animation: squ 2s linear infinite;
+    position: relative;
+    right: 12%;
+    top:2%;
+
+}
+@keyframes squ{
+
+    from{
+       transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color:transparent;
+        transition: 2s;
+        border: 2px solid greenyellow;
+    }
+}
+@media(max-width:768px){
+    .heart {
+        height: 70px;
+        width: 70px;
+        background-color: black;
+        position: relative;
+        transform: rotate(-45deg);
+        box-shadow: -10px 20px 90px red;
+        animation: hi 1s linear infinite;
+        left: 32%;
+        top: 2%;
+    }
+}
+@media(max-width:768px){
+    .square {
+        height: 600px;
+        width: 600px;
+        background-color: transparent;
+        border: 2px solid blueviolet;
+        z-index: 1;
+        animation: squ 2s linear infinite;
+        position: relative;
+        right: 20%;
+        top: 2%;
+    }
+}
