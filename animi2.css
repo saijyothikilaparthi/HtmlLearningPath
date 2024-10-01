@@ -72,7 +72,7 @@ body{
     top: 2%;
 
 }
-@keyframes cir{
+@keyframes cir {
 
     from{
        transform: rotate(0);
@@ -110,6 +110,9 @@ body{
         border: 2px solid greenyellow;
     }
 }
+
+
+
 @media(max-width:768px){
     .heart {
         height: 70px;
