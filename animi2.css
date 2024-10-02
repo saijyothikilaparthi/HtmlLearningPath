@@ -81,7 +81,7 @@ body{
         transform: rotate(360deg);
         background-color:transparent;
         transition: 2s;
-        border: 2px solid greenyellow;
+        border: 2px solid red;
     }
 }
 
