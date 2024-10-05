@@ -90,7 +90,7 @@ body{
     height: 600px;
     width: 600px;
     background-color: transparent;
-    border: 2px solid blue;
+    border: 2px solid rgb(9, 9, 78);
     z-index: 1;
     animation: squ 2s linear infinite;
     position: relative;
